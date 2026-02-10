@@ -4,7 +4,7 @@
 # Log files
 *.log
 
-# Package Files
+# Package Files (excepto .gitkeep)
 *.jar
 *.war
 *.nar
@@ -13,42 +13,43 @@
 *.tar.gz
 *.rar
 
-# Virtual machine crash logs
-hs_err_pid*
-
 # Maven
 target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
 
-# IDEs
-.idea/
-*.iml
-.vscode/
+# IDEs - IntelliJ
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/shelf
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/httpRequests/
+*.iws
+out/
+
+# IDEs - Eclipse
 .eclipse/
 .settings/
 .project
 .classpath
-*.sublime-project
-*.sublime-workspace
+
+# IDEs - VS Code
+.vscode/
 
 # Sistema operativo
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# Build directories
-bin/
-build/
-out/
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~
 
-# Configuración sensible
-src/main/resources/database.properties
+# No ignorar .gitkeep
+!.gitkeep
 
